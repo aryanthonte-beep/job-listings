@@ -1,40 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sujo Indian</title>
-    <style>
-        body {
-            background-color: #121212;
-            color: #e0e0e0;
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-        }
-        h1 {
-            text-align: center;
-            color: #ffab00;
-        }
-        a {
-            color: #ffab00;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        .content {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sujo Indian</title>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(-45deg, #ff512f, #dd2476, #ff9a9e, #fad0c4);
+        background-size: 400% 400%;
+        animation: gradientBG 10s ease infinite;
+    }
+
+    @keyframes gradientBG {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+    }
+
+    .card {
+        background: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(20px);
+        padding: 50px;
+        border-radius: 25px;
+        text-align: center;
+        width: 90%;
+        max-width: 600px;
+        box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+        animation: float 4s ease-in-out infinite;
+    }
+
+    @keyframes float {
+        0%,100% { transform: translateY(0); }
+        50% { transform: translateY(-10px); }
+    }
+
+    h1 {
+        font-size: 2.8rem;
+        color: #ffffff;
+        margin-bottom: 15px;
+        letter-spacing: 2px;
+    }
+
+    p {
+        color: #f1f1f1;
+        margin-bottom: 30px;
+        font-size: 1.1rem;
+    }
+
+    .btn {
+        display: inline-block;
+        padding: 15px 35px;
+        border-radius: 50px;
+        background: #ffffff;
+        color: #dd2476;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 1rem;
+        transition: 0.4s ease;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .btn:hover {
+        background: #dd2476;
+        color: #ffffff;
+        box-shadow: 0 0 25px #ffffff, 0 0 40px #ff9a9e;
+        transform: scale(1.05);
+    }
+
+    .btn::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(120deg, transparent, rgba(255,255,255,0.6), transparent);
+        transition: 0.6s;
+    }
+
+    .btn:hover::before {
+        left: 100%;
+    }
+</style>
 </head>
+
 <body>
-    <div class="content">
-        <h1>Welcome to Sujo Indian</h1>
-        <p>Discover the unique job listings and projects offered by Sujo Indian.</p>
-        <p>Follow us on Pinterest: <a href="https://www.pinterest.com/sujo_indian" target="_blank">Sujo Indian on Pinterest</a></p>
-    </div>
+
+<div class="card">
+    <h1>Sujo Indian</h1>
+    <p>Discover unique projects, creative ideas, and aesthetic inspirations curated specially for you.</p>
+    <a class="btn" href="https://www.pinterest.com/sujo_indian" target="_blank">
+        Visit Pinterest
+    </a>
+</div>
+
 </body>
 </html>
