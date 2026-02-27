@@ -1,20 +1,18 @@
-# Tricon Engineering
+# Job Listings
 
-Tricon Engineering is a dynamic engineering solutions company specialized in AutoCAD drafting, 3D modeling, and technical design services. With a focus on precision, innovation, and client satisfaction, we support industries such as architecture, construction, manufacturing, and product design by transforming ideas into accurate, high-quality CAD drawings and deliverables.
+Welcome to the Job Listings repository!
 
-Our team combines technical expertise with practical industry experience to help businesses streamline workflows, optimize designs, and bring projects to life — from concept to completion.
+## Contact Information
+You can reach us at:
+- **Contact Number**: 8669607606
 
-## Our Services
-- AutoCAD Drafting
-- 3D Modeling
-- Technical Design Services
-- CAD Optimization
+Please feel free to reach out for any inquiries or assistance.
 
-## Industries We Serve
-- Architecture
-- Construction
-- Manufacturing
-- Product Design
+## About
+This repository contains a list of job openings available at our company. 
 
-## Contact Us
-For career inquiries, visit our careers page or contact us directly.
+## How to Apply
+1. Browse through the open positions.
+2. Submit your application via the instructions given in each job posting.
+
+Thank you for your interest!
