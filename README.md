@@ -1,4 +1,4 @@
-# sujoIndian store
+# Sujo Indian store
 
 Welcome to sujoIndian store!
 
